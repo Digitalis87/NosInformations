@@ -42,7 +42,7 @@ FileElement details :
 	EFFECT	5001	{CastEffect}	{CastAnimation}	{Effect}	{AttackAnimation}	0	0	0	0
 	TARGET	{TargetType}	{HitType}	{Range}	{TargetRange}	0
 	DATA	{UpgradeSkill}	{UpgradeType}	0	0	{CastTime}	{Cooldown}	0	0	{MpCost}	0	{ItemVNum}	0	0	0	0
-	BASIC	0	0	0	0	0	0
+	BASIC	0	{BCardId}	{SubType}	{Value*4}	0	0
 	BASIC	1	0	0	0	0	0
 	BASIC	2	0	0	0	0	0
 	BASIC	3	0	0	0	0	0
@@ -54,5 +54,6 @@ FileElement details :
 #=========================================================
 ```
 
-
-Last Update 5/18/2018
+**Dans le cas ou là bcard est de type 25 (donc buff), la ligne
+`BASIC {BcardID}	{SubType}	{ChanceBuff*4}	{CardId*4} 0`
+Last Update 29/05/2020
