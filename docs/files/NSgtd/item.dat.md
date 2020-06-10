@@ -32,7 +32,7 @@ FileElement details :
 	INDEX	0	0	0	0	1	0
         TYPE	{AttackType}	{ItemClass}
 	FLAG	0	0	0	{IsSoldable}	{IsDroppable}	{IsTradable}	{IsBlocked}	{IsMinilandObject}	{IsHolder}	0	0	0	0	0	{IsColored}	0	0	0	{IsBuyWhitReputation}	{IsHeroic}	0	0	{IsLimited}
-	DATA	1	20	28	20	4	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DATA	{Niveau}	{dmgMin}	{DmgMax}	{Precision/concentration}	{ChanceCrit}	{TauxCrit}	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 	BUFF	-1	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 	LINEDESC	1
 zts4e
