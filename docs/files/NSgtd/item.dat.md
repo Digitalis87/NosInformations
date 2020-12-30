@@ -29,7 +29,7 @@ FileElement details :
 ```
 	VNUM	{itemVnum}	{itemPrice}
 	NAME	{itemCodeName}
-	INDEX	0	0	0	0	1	0
+	INDEX	0	0	0	0	{NSipIcon}	0
         TYPE	{AttackType}	{ItemClass}
 	FLAG	0	0	0	{IsSoldable}	{IsDroppable}	{IsTradable}	{IsBlocked}	{IsMinilandObject}	{IsHolder}	0	0	0	0	0	{IsColored}	0	0	0	{IsBuyWhitReputation}	{IsHeroic}	0	0	{IsLimited}
 DATA	{Niveau}	{dmgMin}	{DmgMax}	{Precision/concentration}	{ChanceCrit}	{TauxCrit}	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -56,4 +56,4 @@ ItemClass 8 = Mage
 
 ```
 
-Last Update 5/18/2018
+Last Update 31/12/2020
