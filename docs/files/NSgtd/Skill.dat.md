@@ -54,6 +54,6 @@ FileElement details :
 #=========================================================
 ```
 
-**Dans le cas ou là bcard est de type 25 (donc buff), la ligne
+**In case bcard is type 25 (buff) :
 `BASIC {BcardID}	{SubType}	{ChanceBuff*4}	{CardId*4} 0`
 Last Update 29/05/2020
